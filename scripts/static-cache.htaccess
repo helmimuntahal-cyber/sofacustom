@@ -1,0 +1,6 @@
+# Disalin ke out/_next/static/.htaccess oleh scripts/postbuild.mjs.
+# Semua file di folder ini bernama ber-hash (berubah setiap isi berubah),
+# jadi aman di-cache browser selama 1 tahun.
+<IfModule mod_headers.c>
+  Header set Cache-Control "public, max-age=31536000, immutable"
+</IfModule>

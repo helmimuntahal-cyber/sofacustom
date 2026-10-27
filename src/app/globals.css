@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+/*
+ * DESIGN TOKENS
+ * ---------------------------------------------------------------------------
+ * Ubah warna, font, dan radius di sini; semua kelas Tailwind (bg-ivory,
+ * text-charcoal, dst.) otomatis mengikuti.
+ *
+ * Kontras (WCAG) di atas ivory #F7F4EF:
+ *   charcoal   #292929  ≈ 13.6:1  teks utama
+ *   ink-soft   #5B544D  ≈ 6.8:1   teks sekunder
+ *   taupe-deep #6E5A48  ≈ 6.0:1   teks aksen / tautan
+ *   taupe      #A48C76  ≈ 2.9:1   HANYA dekoratif (garis, ikon besar) — bukan untuk teks
+ */
+@theme {
+  --color-ivory: #f7f4ef;
+  --color-cream: #eae1d6;
+  --color-cream-deep: #ddd1c2;
+  --color-charcoal: #292929;
+  --color-ink-soft: #5b544d;
+  --color-taupe: #a48c76;
+  --color-taupe-deep: #6e5a48;
+  --color-line: #dcd2c5;
+  --color-white: #ffffff;
+  --color-wa: #1d7a45;
+  --color-wa-dark: #165f36;
+  --color-danger: #a12f22;
+
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-display: var(--font-heading), ui-serif, Georgia, "Times New Roman", serif;
+
+  --radius-card: 1.25rem;
+  --radius-media: 1.5rem;
+
+  --breakpoint-xs: 26rem;
+}
+
+@utility container-page {
+  width: 100%;
+  max-width: 78rem;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4.5vw, 2.5rem);
+}
+
+@utility section-y {
+  padding-block: clamp(4rem, 9vw, 7.5rem);
+}
+
+@utility eyebrow {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-taupe-deep);
+}
+
+@layer base {
+  :root {
+    --header-h: 4.5rem;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: calc(var(--header-h) + 1.5rem);
+  }
+
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-charcoal);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--color-cream-deep);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* Konten panjang di halaman layanan (paragraf + daftar). */
+@layer components {
+  .prose-sofa > * + * {
+    margin-top: 1.1em;
+  }
+  .prose-sofa ul {
+    list-style: none;
+    padding: 0;
+  }
+  .prose-sofa ul > li {
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  .prose-sofa ul > li + li {
+    margin-top: 0.5rem;
+  }
+  .prose-sofa ul > li::before {
+    content: "";
+    position: absolute;
+    left: 0.15rem;
+    top: 0.72em;
+    width: 0.55rem;
+    height: 1px;
+    background: var(--color-taupe);
+  }
+  .prose-sofa a {
+    color: var(--color-taupe-deep);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  /* Penanda FAQ (details/summary) tanpa JavaScript. */
+  .faq-item summary {
+    list-style: none;
+  }
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq-item[open] .faq-icon {
+    transform: rotate(45deg);
+  }
+
+  dialog.lightbox::backdrop {
+    background: rgb(20 18 16 / 0.88);
+  }
+}

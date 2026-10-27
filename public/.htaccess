@@ -1,0 +1,34 @@
+# Sofa Custom — konfigurasi server Apache/LiteSpeed (Hostinger).
+# File ini ikut tersalin ke out/ saat `npm run build`.
+#
+# Catatan deployment:
+# - Situs statis ini diunggah ke public_html BERDAMPINGAN dengan instalasi
+#   WordPress lama, karena semua gambar masih berada di wp-content/uploads.
+#   Jangan hapus folder wp-content selama src/data/images.ts masih memakainya.
+# - HTTP→HTTPS dan www→non-www SUDAH dipaksa oleh CDN Hostinger (hcdn).
+#   Jangan menambah RewriteRule paksa-HTTPS di sini: di belakang CDN, server
+#   asal bisa melihat koneksi sebagai HTTP sehingga terjadi redirect berulang.
+#   Bila perlu, gunakan tombol "Force HTTPS" di hPanel → SSL.
+# - Bila file .htaccess lama berisi baris pengatur versi PHP (mis. "AddHandler
+#   application/x-httpd-…" atau blok "php -- BEGIN"), salin baris itu ke
+#   bagian paling atas file ini agar wp-admin tetap berjalan.
+
+Options -Indexes
+# index.html (situs statis) diutamakan; index.php tetap dipakai di folder
+# yang tidak punya index.html, mis. /wp-admin/.
+DirectoryIndex index.html index.php
+ErrorDocument 404 /404.html
+
+# Sitemap WordPress lama → sitemap baru.
+Redirect 301 /wp-sitemap.xml https://sofacustom.my.id/sitemap.xml
+
+<IfModule mod_headers.c>
+  # HTML, sitemap, robots, dan payload navigasi (.txt) selalu dicek ulang.
+  # Cache jangka panjang untuk JS/CSS/font hanya berlaku di /_next/static/
+  # (lihat _next/static/.htaccess yang dibuat oleh scripts/postbuild.mjs).
+  <FilesMatch "\.(html|xml|txt)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
