@@ -7,7 +7,7 @@ import { ARTICLES_PATH } from "@/lib/article-types";
 import { getAllArticles, toMeta } from "@/lib/articles";
 
 const DESCRIPTION =
-  "Panduan memilih sofa custom, bahan upholstery, tanda sofa perlu diservis, dan cara merawat sofa. Tips praktis dari Sofa Custom.";
+  "Panduan sofa custom dan servis sofa di Bandung: memilih bahan, mengenali kerusakan, faktor biaya, dan cara merawat sofa. Tips praktis dari Sofa Custom.";
 
 const TITLE = "Artikel dan Tips Sofa";
 
