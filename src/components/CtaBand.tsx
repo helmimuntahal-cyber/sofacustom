@@ -6,12 +6,14 @@ interface Props {
   title: string;
   body: ReactNode;
   context?: WhatsAppContext;
+  /** Pesan WhatsApp khusus (mis. mengutip judul artikel). */
+  message?: string;
   label?: string;
   checklist?: string[];
 }
 
 /** CTA penutup berlatar charcoal, dipakai di akhir hampir semua halaman. */
-export function CtaBand({ title, body, context = "general", label = "Konsultasi via WhatsApp", checklist }: Props) {
+export function CtaBand({ title, body, context = "general", message, label = "Konsultasi via WhatsApp", checklist }: Props) {
   return (
     <section aria-labelledby="cta-title" className="section-y">
       <div className="container-page">
@@ -21,7 +23,7 @@ export function CtaBand({ title, body, context = "general", label = "Konsultasi 
               {title}
             </h2>
             <div className="mt-5 max-w-[52ch] text-lg leading-relaxed text-cream">{body}</div>
-            <WhatsAppButton context={context} label={label} className="mt-8" />
+            <WhatsAppButton context={context} message={message} label={label} className="mt-8" />
           </div>
           {checklist && (
             <div className="rounded-[var(--radius-card)] border border-white/15 p-6 sm:p-8">

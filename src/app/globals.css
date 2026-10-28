@@ -146,6 +146,109 @@
     text-underline-offset: 3px;
   }
 
+  /* Isi artikel (Markdown → HTML). Lihat src/components/ArticleBody.tsx. */
+  .article-body {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-charcoal);
+  }
+  .article-body > * + * {
+    margin-top: 1.25em;
+  }
+  .article-body h2 {
+    margin-top: 2.6em;
+    font-size: clamp(1.7rem, 3.6vw, 2.25rem);
+  }
+  .article-body h3 {
+    margin-top: 2em;
+    font-size: clamp(1.35rem, 2.6vw, 1.65rem);
+  }
+  .article-body h2 + *,
+  .article-body h3 + * {
+    margin-top: 0.8em;
+  }
+  .article-body a {
+    color: var(--color-taupe-deep);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .article-body ul,
+  .article-body ol {
+    padding-left: 0;
+    list-style: none;
+  }
+  .article-body ul > li {
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  .article-body ul > li::before {
+    content: "";
+    position: absolute;
+    left: 0.15rem;
+    top: 0.85em;
+    width: 0.55rem;
+    height: 1px;
+    background: var(--color-taupe);
+  }
+  .article-body ol {
+    counter-reset: item;
+  }
+  .article-body ol > li {
+    position: relative;
+    padding-left: 2rem;
+    counter-increment: item;
+  }
+  .article-body ol > li::before {
+    content: counter(item) ".";
+    position: absolute;
+    left: 0;
+    font-weight: 600;
+    color: var(--color-taupe-deep);
+  }
+  .article-body li + li {
+    margin-top: 0.6rem;
+  }
+  .article-body .callout {
+    border-left: 3px solid var(--color-taupe);
+    background: var(--color-cream);
+    border-radius: 0 var(--radius-card) var(--radius-card) 0;
+    padding: 1.1rem 1.4rem;
+    font-size: 1.02rem;
+    line-height: 1.7;
+  }
+  .article-body .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-card);
+    background: var(--color-white);
+  }
+  .article-body table {
+    width: 100%;
+    min-width: 30rem;
+    border-collapse: collapse;
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+  .article-body th,
+  .article-body td {
+    padding: 0.8rem 1rem;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--color-line);
+  }
+  .article-body th {
+    background: var(--color-cream);
+    font-weight: 600;
+  }
+  .article-body tr:last-child td {
+    border-bottom: 0;
+  }
+  .article-body figure img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-media);
+  }
+
   /* Penanda FAQ (details/summary) tanpa JavaScript. */
   .faq-item summary {
     list-style: none;

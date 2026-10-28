@@ -28,6 +28,7 @@ npm run dev            # http://localhost:3000
 | `npm run lint` | ESLint |
 | `npm run typecheck` | Pemeriksaan tipe TypeScript |
 | `npm run check` | typecheck + lint + build sekaligus |
+| `npm run check:articles` | Setelah build: memeriksa halaman artikel di `out/` (canonical, sitemap, structured data, tautan) |
 | `npm run check:images` | Mengecek semua URL gambar (status, ukuran, dimensi asli vs konfigurasi) |
 | `npm run package` | Membuat `sofacustom-out.zip` (isi `out/`) untuk diunggah ke Hostinger |
 
@@ -108,7 +109,12 @@ Tersembunyi. Setelah dikonfirmasi tersedia, ubah `offersElectricSofaService: tru
 Letakkan file di `public/` (mis. `public/logo.svg`), lalu isi `logo: "/logo.svg"` di `src/config/site.ts`. Selama `null`, dipakai wordmark teks "Sofa · Custom".
 Favicon: tambahkan `src/app/icon.png` (atau `icon.svg`) — Next.js memasangnya otomatis.
 
+### Artikel
+Artikel adalah file Markdown di `content/articles/`; panduan lengkap di [`docs/PENGELOLAAN-ARTIKEL.md`](docs/PENGELOLAAN-ARTIKEL.md).
+
 ### Gambar
+Foto lokal disimpan di `public/images/` (hero, pembuatan-sofa, servis-sofa, galeri, tentang-kami); aturan nama dan cara menambah foto ada di [`public/images/README.md`](public/images/README.md).
+
 Semua di `src/data/images.ts`. Ganti `src` (dan `width`/`height` bila dimensinya berubah — cek dengan `npm run check:images`). Komponen memanggil gambar lewat `id`, jadi tidak perlu mengedit halaman.
 
 Kolom `provenance`:

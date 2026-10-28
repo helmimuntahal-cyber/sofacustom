@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { WhatsAppIcon } from "@/components/icons";
-import { isWhatsAppConfigured, whatsappHref, type WhatsAppContext } from "@/lib/whatsapp";
+import { buildWhatsAppUrl, isWhatsAppConfigured, whatsappHref, type WhatsAppContext } from "@/lib/whatsapp";
 
 const variants = {
   primary: "bg-charcoal text-ivory hover:bg-black",
@@ -16,6 +16,8 @@ const sizes = {
 
 interface Props {
   context?: WhatsAppContext;
+  /** Pesan pembuka khusus; bila diisi menggantikan pesan bawaan `context`. */
+  message?: string;
   label?: string;
   variant?: keyof typeof variants;
   size?: keyof typeof sizes;
@@ -29,6 +31,7 @@ interface Props {
  */
 export function WhatsAppButton({
   context = "general",
+  message,
   label = "Konsultasi via WhatsApp",
   variant = "whatsapp",
   size = "md",
@@ -36,6 +39,7 @@ export function WhatsAppButton({
   showIcon = true,
 }: Props) {
   const classes = `inline-flex items-center justify-center gap-2.5 rounded-full font-semibold transition-colors ${variants[variant]} ${sizes[size]} ${className}`;
+  const href = message ? (buildWhatsAppUrl(message) ?? "/kontak/") : whatsappHref(context);
   const content = (
     <>
       {showIcon && <WhatsAppIcon className="size-5 shrink-0" />}
@@ -45,7 +49,7 @@ export function WhatsAppButton({
 
   if (!isWhatsAppConfigured) {
     return (
-      <Link href={whatsappHref(context)} className={classes}>
+      <Link href={href} className={classes}>
         {content}
       </Link>
     );
@@ -53,7 +57,7 @@ export function WhatsAppButton({
 
   return (
     <a
-      href={whatsappHref(context)}
+      href={href}
       className={classes}
       target="_blank"
       rel="noopener noreferrer"

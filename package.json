@@ -11,6 +11,7 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "check:images": "node scripts/check-images.mjs",
+    "check:articles": "node scripts/check-articles.mjs",
     "package": "node scripts/package.mjs",
     "check": "npm run typecheck && npm run lint && npm run build"
   },

@@ -13,11 +13,12 @@
  * perlu dilengkapi".
  */
 
-const PLACEHOLDER_WHATSAPP = "GANTI_DENGAN_NOMOR_BISNIS";
+/** Nomor WhatsApp bisnis (diberikan pemilik). Dipakai bila NEXT_PUBLIC_WHATSAPP_NUMBER tidak diatur, mis. di deployment Vercel. */
+const DEFAULT_WHATSAPP = "6282118999987";
 
 /** Nomor WA valid: format internasional, hanya digit, tanpa "+" atau "0" di depan. */
 function readWhatsAppNumber(): string | null {
-  const raw = (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? PLACEHOLDER_WHATSAPP).trim();
+  const raw = (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? DEFAULT_WHATSAPP).trim();
   return /^[1-9]\d{7,14}$/.test(raw) ? raw : null;
 }
 

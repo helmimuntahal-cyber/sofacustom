@@ -89,6 +89,33 @@ export function serviceSchema(input: { name: string; description: string; path: 
   });
 }
 
+export function articleSchema(input: {
+  title: string;
+  description: string;
+  path: string;
+  publishedAt: string;
+  updatedAt?: string;
+  author: string;
+  category: string;
+  image?: string;
+}): Json {
+  return compact({
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: input.title,
+    description: input.description,
+    url: absoluteUrl(input.path),
+    mainEntityOfPage: { "@type": "WebPage", "@id": absoluteUrl(input.path) },
+    datePublished: input.publishedAt,
+    dateModified: input.updatedAt ?? input.publishedAt,
+    author: { "@type": "Organization", name: input.author },
+    publisher: { "@id": ORG_ID },
+    articleSection: input.category,
+    inLanguage: "id-ID",
+    image: input.image ? [absoluteUrl(input.image)] : null,
+  });
+}
+
 export function breadcrumbSchema(items: { name: string; path: string }[]): Json {
   return {
     "@context": "https://schema.org",

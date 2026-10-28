@@ -11,6 +11,7 @@ export const serviceNav: NavLink[] = [
 
 export const mainNav: NavLink[] = [
   { label: "Galeri", href: "/galeri/" },
+  { label: "Artikel", href: "/artikel/" },
   { label: "Tentang Kami", href: "/tentang-kami/" },
   { label: "FAQ", href: "/faq/" },
   { label: "Kontak", href: "/kontak/" },
