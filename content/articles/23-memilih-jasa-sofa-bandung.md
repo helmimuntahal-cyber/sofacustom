@@ -5,6 +5,8 @@ description: Daftar periksa praktis memilih penyedia jasa sofa custom dan servis
 publishedAt: 2026-10-28
 category: Sofa di Bandung
 author: Tim Sofa Custom
+coverImage: /images/galeri/pengiriman-sofa-kulit-sintetis-hitam.webp
+coverImageAlt: Sofa tiga dudukan berlapis kulit sintetis hitam dimuat di bak mobil pikap di depan rumah
 ---
 
 Banyak pilihan penyedia jasa sofa di Bandung, dan sulit menilai mana yang cocok hanya dari iklan atau foto. Daripada mencari yang "paling" apa pun, lebih berguna memakai daftar periksa yang sama untuk semua pilihan Anda. Berikut kriteria yang dapat membantu.

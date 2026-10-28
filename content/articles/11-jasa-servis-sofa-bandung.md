@@ -5,6 +5,9 @@ description: Panduan memilih jasa servis sofa di Bandung: jenis perbaikan yang u
 publishedAt: 2026-10-28
 category: Sofa di Bandung
 author: Tim Sofa Custom
+coverImage: /images/servis-sofa/servis-sofa-kayu-berukir-ganti-jok-kulit-sintetis.webp
+coverImageAlt: Kolase sebelum dan sesudah: sofa kayu berukir dengan jok kain hijau zaitun yang lepas, lalu tampil dengan jok kulit sintetis cokelat muda dan kayu yang mengilap
+coverFit: contain
 ---
 
 Sofa yang ambles, pelapis yang robek, atau rangka yang goyang adalah masalah umum di rumah mana pun. Jika Anda mencari jasa servis sofa di Bandung, ada beberapa hal yang membantu Anda membandingkan pilihan dengan lebih tenang.

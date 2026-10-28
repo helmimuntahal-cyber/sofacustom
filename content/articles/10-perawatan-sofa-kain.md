@@ -5,6 +5,8 @@ description: Panduan membersihkan sofa berbahan kain dengan aman: debu harian, m
 publishedAt: 2026-10-28
 category: Perawatan
 author: Tim Sofa Custom
+coverImage: /images/pembuatan-sofa/sofa-lengkung-kain-abu-abu-dan-pouf.webp
+coverImageAlt: Sofa lengkung modern berbahan kain abu-abu dengan dua bantal merah dan pouf bundar di ruang kantor
 ---
 
 Sofa berbahan kain terasa nyaman dan hangat, tetapi menyerap debu dan noda lebih mudah dibanding permukaan yang licin. Dengan cara yang tepat, kain bisa dijaga tetap bersih tanpa merusak seratnya.

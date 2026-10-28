@@ -5,6 +5,8 @@ description: Pertimbangan memilih sofa L custom: kapan cocok, kekurangannya, ori
 publishedAt: 2026-10-28
 category: Desain & Ukuran
 author: Tim Sofa Custom
+coverImage: /images/pembuatan-sofa/set-sofa-kayu-klasik-sandaran-tufted.webp
+coverImageAlt: Set sofa rangka kayu klasik dengan sandaran kancing (tufted) berlapis kulit sintetis cokelat susu
 ---
 
 Sofa L adalah pilihan populer untuk ruang keluarga karena dapat menampung banyak orang dan memanfaatkan sudut ruangan. Namun bentuk ini tidak cocok untuk semua ruangan. Pada sofa custom, Anda bisa menyesuaikan bentuknya, tetapi tetap perlu menimbang beberapa hal.

@@ -5,6 +5,9 @@ description: Sebelum mengganti kain atau kulit sintetis sofa di Bandung, pahami 
 publishedAt: 2026-10-28
 category: Sofa di Bandung
 author: Tim Sofa Custom
+coverImage: /images/servis-sofa/ganti-pelapis-sofa-dua-dudukan-sebelum-sesudah.webp
+coverImageAlt: Kolase sebelum dan sesudah: sofa dua dudukan berbahan cokelat yang kotor dan aus, lalu sofa dengan bentuk serupa berlapis bahan abu-abu
+coverFit: contain
 ---
 
 Mengganti pelapis adalah cara populer memberi sofa lama tampilan baru tanpa mengganti seluruh sofa. Namun hasilnya sangat bergantung pada kondisi rangka, pilihan bahan, dan ketelitian pengerjaan. Berikut hal yang perlu Anda pertimbangkan sebelum mengganti kain sofa di Bandung.

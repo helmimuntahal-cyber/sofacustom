@@ -5,6 +5,9 @@ description: Kenali tanda-tanda busa sofa sudah lelah, dari dudukan ambles sampa
 publishedAt: 2026-10-28
 category: Servis Sofa
 author: Tim Sofa Custom
+coverImage: /images/servis-sofa/ganti-pelapis-sofa-dua-dudukan-sebelum-sesudah.webp
+coverImageAlt: Kolase sebelum dan sesudah: sofa dua dudukan berbahan cokelat yang kotor dan aus, lalu sofa dengan bentuk serupa berlapis bahan abu-abu
+coverFit: contain
 ---
 
 Busa adalah bagian sofa yang bekerja paling keras. Setiap kali duduk, busa menahan beban dan kembali ke bentuk semula. Lama-kelamaan kemampuannya menurun. Berikut tanda-tanda yang bisa Anda periksa sendiri.

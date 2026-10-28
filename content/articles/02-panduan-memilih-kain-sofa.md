@@ -5,6 +5,8 @@ description: Cara membandingkan kain sofa dari sisi kenyamanan, ketahanan, dan p
 publishedAt: 2026-10-28
 category: Bahan & Upholstery
 author: Tim Sofa Custom
+coverImage: /images/pembuatan-sofa/sofa-lengkung-kain-abu-abu-dan-pouf.webp
+coverImageAlt: Sofa lengkung modern berbahan kain abu-abu dengan dua bantal merah dan pouf bundar di ruang kantor
 ---
 
 Kain adalah bagian sofa yang paling sering disentuh, dilihat, dan dikotori. Memilihnya hanya dari warna atau tekstur di katalog sering berujung kecewa. Berikut cara menimbang kain berdasarkan pemakaian sehari-hari.

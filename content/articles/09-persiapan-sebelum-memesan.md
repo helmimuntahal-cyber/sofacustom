@@ -5,6 +5,8 @@ description: Daftar persiapan sebelum berkonsultasi sofa custom: ukuran ruang, r
 publishedAt: 2026-10-28
 category: Panduan Sofa Custom
 author: Tim Sofa Custom
+coverImage: /images/galeri/pengiriman-sofa-kulit-sintetis-hitam.webp
+coverImageAlt: Sofa tiga dudukan berlapis kulit sintetis hitam dimuat di bak mobil pikap di depan rumah
 ---
 
 Pesanan sofa custom berjalan lebih mulus bila Anda datang dengan informasi yang cukup. Anda tidak perlu menyiapkan semuanya sempurna, tetapi daftar berikut membantu pembahasan lebih cepat dan hasilnya lebih sesuai harapan.

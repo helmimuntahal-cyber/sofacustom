@@ -5,6 +5,9 @@ description: Panduan memotret sofa agar penilaian awal servis akurat: sudut foto
 publishedAt: 2026-10-28
 category: Servis Sofa
 author: Tim Sofa Custom
+coverImage: /images/servis-sofa/ganti-kulit-sintetis-sofa-hitam-sebelum-sesudah.webp
+coverImageAlt: Kolase sebelum dan sesudah: sofa tiga dudukan kulit sintetis hitam dengan dudukan retak-retak, lalu sofa yang sama dengan pelapis hitam baru yang mulus
+coverFit: contain
 ---
 
 Foto yang jelas membuat penilaian awal servis sofa jauh lebih akurat dan menghemat bolak-balik pertanyaan. Anda tidak perlu kamera khusus; ponsel biasa sudah cukup bila fotonya terang dan fokus. Berikut panduan praktisnya.

@@ -5,6 +5,9 @@ description: Alur memesan sofa custom di Bandung langkah demi langkah: konsultas
 publishedAt: 2026-10-28
 category: Sofa di Bandung
 author: Tim Sofa Custom
+coverImage: /images/galeri/pengiriman-sofa-kulit-sintetis-krem.webp
+coverImageAlt: Sofa tiga dudukan berlapis kulit sintetis krem dimuat di bak mobil pikap
+coverFit: contain
 ---
 
 Memesan sofa custom berbeda dari membeli sofa jadi karena ada proses diskusi dan kesepakatan sebelum pengerjaan. Bila Anda berencana memesan sofa custom di Bandung, mengetahui alurnya membantu Anda mempersiapkan diri dan menghindari salah paham.

@@ -5,6 +5,9 @@ description: Cara menilai apakah sofa lama masih layak diperbaiki atau lebih bai
 publishedAt: 2026-10-28
 category: Servis Sofa
 author: Tim Sofa Custom
+coverImage: /images/servis-sofa/renovasi-sofa-kayu-klasik-sebelum-sesudah.webp
+coverImageAlt: Kolase sebelum dan sesudah: sofa kayu berukir dengan jok kuning kusam dan alas anyaman terbuka, lalu tampil dengan jok kulit sintetis cokelat tua bermotif kancing
+coverFit: contain
 ---
 
 Sofa yang mulai tampak tua tidak selalu harus dibuang. Banyak masalah, seperti pelapis robek atau busa kempis, bisa diperbaiki. Namun ada juga kondisi ketika servis tidak lagi masuk akal. Berikut cara menilainya.

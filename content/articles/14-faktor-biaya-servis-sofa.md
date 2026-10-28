@@ -5,6 +5,9 @@ description: Mengapa biaya servis sofa berbeda-beda? Pahami faktor ukuran, bahan
 publishedAt: 2026-10-28
 category: Servis Sofa
 author: Tim Sofa Custom
+coverImage: /images/servis-sofa/ganti-kulit-sintetis-sofa-hitam-sebelum-sesudah.webp
+coverImageAlt: Kolase sebelum dan sesudah: sofa tiga dudukan kulit sintetis hitam dengan dudukan retak-retak, lalu sofa yang sama dengan pelapis hitam baru yang mulus
+coverFit: contain
 ---
 
 "Berapa biaya servis sofa?" adalah pertanyaan yang paling sering muncul, tetapi jawabannya tidak bisa satu angka untuk semua sofa. Artikel ini tidak menyebutkan harga, melainkan menjelaskan faktor yang membuat biaya berbeda sehingga Anda bisa menilai estimasi dengan lebih tenang.

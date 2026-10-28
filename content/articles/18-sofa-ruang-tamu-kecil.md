@@ -5,6 +5,8 @@ description: Cara memanfaatkan sofa custom di ruang tamu kecil: memilih bentuk r
 publishedAt: 2026-10-28
 category: Desain & Ukuran
 author: Tim Sofa Custom
+coverImage: /images/pembuatan-sofa/sofa-lengkung-kain-abu-abu-dan-pouf.webp
+coverImageAlt: Sofa lengkung modern berbahan kain abu-abu dengan dua bantal merah dan pouf bundar di ruang kantor
 ---
 
 Ruang tamu kecil sering membuat orang kesulitan menemukan sofa yang pas. Sofa jadi biasanya berukuran standar, sehingga terlalu besar atau menyisakan ruang yang canggung. Sofa custom memberi peluang menyesuaikan ukuran dengan ruang yang ada. Berikut pertimbangannya.

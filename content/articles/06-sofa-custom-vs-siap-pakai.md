@@ -5,6 +5,8 @@ description: Bandingkan sofa custom dan sofa siap pakai dari sisi ukuran, bahan,
 publishedAt: 2026-10-28
 category: Panduan Sofa Custom
 author: Tim Sofa Custom
+coverImage: /images/pembuatan-sofa/set-sofa-kayu-klasik-sandaran-tufted.webp
+coverImageAlt: Set sofa rangka kayu klasik dengan sandaran kancing (tufted) berlapis kulit sintetis cokelat susu
 ---
 
 Saat mencari sofa, Anda biasanya punya dua jalur: membeli yang sudah jadi atau memesan dibuatkan. Keduanya bukan soal mana yang lebih baik secara mutlak, melainkan mana yang lebih cocok dengan situasi Anda.

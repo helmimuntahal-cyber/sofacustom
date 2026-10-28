@@ -15,6 +15,8 @@ export interface ArticleMeta {
   /** Path lokal di /public, mis. "/images/galeri/nama.webp". Opsional. */
   coverImage?: string;
   coverImageAlt?: string;
+  /** "cover" (default) memotong foto agar memenuhi kotak; "contain" menampilkan foto utuh (mis. kolase sebelum–sesudah). */
+  coverFit: "cover" | "contain";
   author: string;
   featured: boolean;
   /** Perkiraan menit baca (dihitung dari jumlah kata). */

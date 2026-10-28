@@ -5,6 +5,9 @@ description: Panduan memilih busa sofa sesuai cara pemakaian: perbedaan busa unt
 publishedAt: 2026-10-28
 category: Bahan & Upholstery
 author: Tim Sofa Custom
+coverImage: /images/servis-sofa/renovasi-sofa-kayu-klasik-sebelum-sesudah.webp
+coverImageAlt: Kolase sebelum dan sesudah: sofa kayu berukir dengan jok kuning kusam dan alas anyaman terbuka, lalu tampil dengan jok kulit sintetis cokelat tua bermotif kancing
+coverFit: contain
 ---
 
 Busa menentukan rasa duduk sebuah sofa, dan sering kali jadi alasan sofa terasa nyaman atau melelahkan setelah beberapa tahun. Sayangnya busa tidak terlihat dari luar, sehingga mudah diabaikan saat memilih. Berikut cara memikirkannya.

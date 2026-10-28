@@ -5,6 +5,8 @@ description: Cara memilih warna sofa yang menyatu dengan dinding, lantai, dan pe
 publishedAt: 2026-10-28
 category: Desain & Ukuran
 author: Tim Sofa Custom
+coverImage: /images/pembuatan-sofa/set-sofa-kayu-klasik-sandaran-tufted.webp
+coverImageAlt: Set sofa rangka kayu klasik dengan sandaran kancing (tufted) berlapis kulit sintetis cokelat susu
 ---
 
 Warna sofa memengaruhi suasana seluruh ruangan, dan karena ukurannya besar, salah pilih terasa sekali. Berikut beberapa pertimbangan agar warna sofa selaras dengan interior rumah Anda.

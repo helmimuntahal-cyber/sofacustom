@@ -5,6 +5,8 @@ description: Kebiasaan sederhana harian, mingguan, dan bulanan untuk menjaga sof
 publishedAt: 2026-10-28
 category: Perawatan
 author: Tim Sofa Custom
+coverImage: /images/pembuatan-sofa/sofa-custom-tiga-dudukan-kulit-sintetis-hitam.webp
+coverImageAlt: Sofa tiga dudukan berlapis kulit sintetis hitam dengan lengan melengkung di teras berlantai teraso
 ---
 
 Sofa yang dirawat dengan baik tampak rapi lebih lama dan menunda kebutuhan servis. Perawatannya tidak rumit; yang penting konsisten. Berikut kebiasaan yang bisa Anda terapkan.

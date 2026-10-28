@@ -5,6 +5,8 @@ description: Langkah mengukur ruang tamu dan menentukan ukuran sofa yang propors
 publishedAt: 2026-10-28
 category: Desain & Ukuran
 author: Tim Sofa Custom
+coverImage: /images/pembuatan-sofa/sofa-lengkung-kain-abu-abu-dan-pouf.webp
+coverImageAlt: Sofa lengkung modern berbahan kain abu-abu dengan dua bantal merah dan pouf bundar di ruang kantor
 ---
 
 Sofa yang terlalu besar membuat ruangan sesak, sedangkan yang terlalu kecil terasa kosong dan kurang nyaman. Menentukan ukuran dengan benar sebelum memesan menghemat banyak masalah di kemudian hari.

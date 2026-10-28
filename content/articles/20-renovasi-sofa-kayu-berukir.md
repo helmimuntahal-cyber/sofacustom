@@ -5,6 +5,9 @@ description: Sofa kayu berukir klasik sering layak direnovasi. Pelajari cara men
 publishedAt: 2026-10-28
 category: Servis Sofa
 author: Tim Sofa Custom
+coverImage: /images/servis-sofa/servis-sofa-kayu-berukir-ganti-jok-kulit-sintetis.webp
+coverImageAlt: Kolase sebelum dan sesudah: sofa kayu berukir dengan jok kain hijau zaitun yang lepas, lalu tampil dengan jok kulit sintetis cokelat muda dan kayu yang mengilap
+coverFit: contain
 ---
 
 Sofa kayu berukir sering punya nilai lebih dari sekadar tempat duduk: bentuknya khas, pengerjaannya rumit, dan kadang diwariskan dalam keluarga. Ketika jok sudah lusuh atau kayunya kusam, banyak orang ragu: renovasi atau ganti? Berikut cara menimbangnya.

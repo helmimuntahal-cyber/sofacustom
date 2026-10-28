@@ -5,6 +5,8 @@ description: Mengenal rangka kayu, sambungan, dan penyangga dudukan (per dan web
 publishedAt: 2026-10-28
 category: Panduan Sofa Custom
 author: Tim Sofa Custom
+coverImage: /images/pembuatan-sofa/set-sofa-kayu-klasik-sandaran-tufted.webp
+coverImageAlt: Set sofa rangka kayu klasik dengan sandaran kancing (tufted) berlapis kulit sintetis cokelat susu
 ---
 
 Orang biasanya menilai sofa dari pelapis dan bentuknya. Padahal kekuatan dan umur sofa terutama ditentukan bagian dalam yang tidak terlihat: rangka dan penyangga dudukan. Memahami keduanya membantu Anda mengajukan pertanyaan yang tepat saat memesan atau menilai sofa lama.

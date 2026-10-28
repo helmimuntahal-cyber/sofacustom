@@ -5,6 +5,8 @@ description: Mengapa biaya sofa custom berbeda tiap pesanan? Kenali faktor rangk
 publishedAt: 2026-10-28
 category: Panduan Sofa Custom
 author: Tim Sofa Custom
+coverImage: /images/pembuatan-sofa/sofa-custom-tiga-dudukan-kulit-sintetis-hitam.webp
+coverImageAlt: Sofa tiga dudukan berlapis kulit sintetis hitam dengan lengan melengkung di teras berlantai teraso
 ---
 
 Dua sofa yang tampak mirip bisa memiliki biaya yang berbeda jauh. Pada sofa custom, hal ini wajar karena setiap pesanan memiliki spesifikasi sendiri. Artikel ini tidak mencantumkan harga, tetapi menjelaskan faktor yang memengaruhinya agar Anda bisa membandingkan penawaran dengan adil.

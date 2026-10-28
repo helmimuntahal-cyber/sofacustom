@@ -63,6 +63,9 @@ function readArticle(file: string): { article: Article; draft: boolean } {
   if (!isRealDate(data.publishedAt)) throw new Error(`${file}: publishedAt harus tanggal ISO nyata (YYYY-MM-DD), bukan "${data.publishedAt}".`);
   if (data.updatedAt && !isRealDate(data.updatedAt)) throw new Error(`${file}: updatedAt harus tanggal ISO nyata (YYYY-MM-DD).`);
   if (data.description.length > 200) throw new Error(`${file}: description ${data.description.length} karakter; maksimal 200.`);
+  if (data.coverFit && !["cover", "contain"].includes(data.coverFit)) {
+    throw new Error(`${file}: coverFit harus "cover" atau "contain", bukan "${data.coverFit}".`);
+  }
   if (data.coverImage) {
     assertLocalImage(data.coverImage, `${file} (coverImage)`);
     if (!data.coverImageAlt) throw new Error(`${file}: coverImageAlt wajib diisi bila coverImage dipakai.`);
@@ -82,6 +85,7 @@ function readArticle(file: string): { article: Article; draft: boolean } {
     category: data.category,
     coverImage: data.coverImage || undefined,
     coverImageAlt: data.coverImageAlt || undefined,
+    coverFit: data.coverFit === "contain" ? "contain" : "cover",
     author: data.author,
     featured: data.featured === "true",
     readingMinutes: Math.max(1, Math.round(parsed.wordCount / WORDS_PER_MINUTE)),

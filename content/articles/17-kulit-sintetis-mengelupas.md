@@ -5,6 +5,9 @@ description: Mengapa kulit sintetis sofa mengelupas dan retak, apakah bisa ditam
 publishedAt: 2026-10-28
 category: Servis Sofa
 author: Tim Sofa Custom
+coverImage: /images/servis-sofa/ganti-kulit-sintetis-sofa-hitam-sebelum-sesudah.webp
+coverImageAlt: Kolase sebelum dan sesudah: sofa tiga dudukan kulit sintetis hitam dengan dudukan retak-retak, lalu sofa yang sama dengan pelapis hitam baru yang mulus
+coverFit: contain
 ---
 
 Kulit sintetis yang mulai terkelupas adalah keluhan yang umum pada sofa yang sudah beberapa tahun dipakai. Permukaannya retak, lapisan atasnya terlepas seperti serpihan, dan sofa terlihat jauh lebih tua. Berikut penyebab yang umum dan apa yang bisa dilakukan.

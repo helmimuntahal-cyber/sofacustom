@@ -28,6 +28,7 @@ category: Servis Sofa
 author: Tim Sofa Custom
 coverImage: /images/galeri/nama-foto.webp
 coverImageAlt: Deskripsi akurat isi foto
+coverFit: cover
 featured: false
 draft: false
 ---
@@ -50,6 +51,7 @@ Isi bagian...
 | `author` | ya | Mis. `Tim Sofa Custom`. |
 | `coverImage` | tidak | Path lokal yang diawali `/images/`. File harus ada di `public/`. Tanpa ini, kartu memakai visual netral. |
 | `coverImageAlt` | wajib bila ada `coverImage` | Deskripsikan isi foto secara akurat. |
+| `coverFit` | tidak | `cover` (bawaan) memotong foto agar memenuhi kotak; `contain` menampilkan foto utuh, cocok untuk kolase sebelum–sesudah atau foto potret. |
 | `featured` | tidak | `true` untuk artikel unggulan di `/artikel/` (satu artikel; bila lebih dari satu, yang terbaru dipakai). |
 | `draft` | tidak | `true` = tersimpan di repo tetapi tidak diterbitkan dan tidak masuk sitemap. |
 

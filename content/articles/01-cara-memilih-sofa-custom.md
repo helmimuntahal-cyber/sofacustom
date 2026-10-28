@@ -5,6 +5,8 @@ description: Langkah praktis memilih sofa custom: dari mengukur ruang, menentuka
 publishedAt: 2026-10-28
 category: Panduan Sofa Custom
 author: Tim Sofa Custom
+coverImage: /images/pembuatan-sofa/sofa-custom-tiga-dudukan-kulit-sintetis-hitam.webp
+coverImageAlt: Sofa tiga dudukan berlapis kulit sintetis hitam dengan lengan melengkung di teras berlantai teraso
 featured: true
 ---
 

@@ -11,7 +11,7 @@ export function ArticleCover({ article, className = "", priority = false }: { ar
           alt={article.coverImageAlt ?? ""}
           loading={priority ? "eager" : "lazy"}
           decoding={priority ? "sync" : "async"}
-          className="absolute inset-0 size-full object-cover"
+          className={`absolute inset-0 size-full ${article.coverFit === "contain" ? "object-contain" : "object-cover"}`}
         />
       </div>
     );
