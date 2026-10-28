@@ -4,6 +4,9 @@
  * Semua URL gambar ada di sini. Untuk mengganti gambar, ubah `src` (dan
  * `width`/`height` bila ukurannya berubah) — komponen lain cukup memanggil id.
  *
+ * Foto bisa memakai URL luar (`${BASE}/nama.webp`) atau file lokal di `public/images/`
+ * (`src: "/images/galeri/nama.webp"`). Panduan: public/images/README.md.
+ *
  * `provenance` menjelaskan status keaslian foto (diperiksa visual 27-10-2026):
  *  - "own"          : dokumentasi hasil kerja Sofa Custom. Pemilik mengonfirmasi
  *                     (27-10-2026) bahwa foto yang diunggahnya adalah hasil kerjanya;

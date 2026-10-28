@@ -13,6 +13,11 @@ const entries = [...source.matchAll(/id: "([^"]+)",\s*src: `\$\{BASE\}\/([^`]+)`
   ([, id, file, width, height]) => ({ id, url: `${base}/${file}`, width: Number(width), height: Number(height) }),
 );
 
+// Entri dengan path lokal (src: "/images/...") — diperiksa langsung di folder public/.
+const localEntries = [...source.matchAll(/id: "([^"]+)",\s*src: "(\/[^"]+)"[\s\S]*?width: (\d+),\s*height: (\d+)/g)].map(
+  ([, id, path, width, height]) => ({ id, path, width: Number(width), height: Number(height) }),
+);
+
 function dimensions(buf) {
   // PNG
   if (buf.readUInt32BE(0) === 0x89504e47) return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) };
@@ -74,5 +79,20 @@ for (const e of entries) {
     console.log(`GAGAL        ${e.id}  ${err.message}`);
   }
 }
-console.log(`\n${entries.length} gambar diperiksa, ${failures} gagal.`);
+for (const e of localEntries) {
+  try {
+    const buf = await readFile(new URL(`../public${e.path}`, import.meta.url));
+    const dim = dimensions(buf);
+    const kb = Math.round(buf.length / 1024);
+    const match = dim && dim.w === e.width && dim.h === e.height;
+    console.log(
+      `${(match ? "OK" : "DIMENSI BEDA").padEnd(12)} lokal ${String(kb).padStart(5)} KB  ` +
+        `asli ${dim ? `${dim.w}x${dim.h}` : "?"}  konfigurasi ${e.width}x${e.height}  ${e.id}`,
+    );
+  } catch {
+    failures++;
+    console.log(`GAGAL        file lokal tidak ditemukan: public${e.path}  (${e.id})`);
+  }
+}
+console.log(`\n${entries.length + localEntries.length} gambar diperiksa, ${failures} gagal.`);
 process.exitCode = failures > 0 ? 1 : 0;
